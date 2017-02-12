@@ -13,10 +13,14 @@ const styles = StyleSheet.create({
   },
 });
 
-const Navigation = () => (
+const LoginScreen = () => (
   <View style={styles.container}>
-    <Text>{"It's navigation."}</Text>
+    <Text>{"It's login screen."}</Text>
   </View>
-)
+);
 
-export default Navigation;
+LoginScreen.navigationOptions = {
+  title: 'Login',
+};
+
+export default LoginScreen;
